@@ -1,3 +1,6 @@
+from src.user import create_user
+
+
 def test_name(sample_user):
     assert sample_user["name"] == "Alice"
 
